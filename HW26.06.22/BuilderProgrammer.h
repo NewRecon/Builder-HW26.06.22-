@@ -6,17 +6,22 @@ private:
 	Programmer* prog = new Programmer;
 
 public:
+	BuilderProgrammer(){}
+	~BuilderProgrammer()
+	{
+		delete prog;
+	}
 	void setName(std::string name) override
 	{
-		this->prog->name = name;
+		this->prog->setName(name);
 	}
 	void setPhone(std::string phone) override
 	{
-		this->prog->phone = phone;
+		this->prog->setPhone(phone);
 	}
 	void setOffice(std::string office) override
 	{
-		this->prog->office = office;
+		this->prog->setOffice(office);
 	}
 	Programmer* get()
 	{

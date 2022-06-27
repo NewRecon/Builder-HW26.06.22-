@@ -140,7 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="BuilderEngineer.cpp" />
+    <ClCompile Include="BuilderEngineerInfo.cpp" />
     <ClCompile Include="BuilderProgrammer.cpp" />
+    <ClCompile Include="BuilderProgrammerInfo.cpp" />
+    <ClCompile Include="Director.cpp" />
     <ClCompile Include="Engineer.cpp" />
     <ClCompile Include="EngineerInfo.cpp" />
     <ClCompile Include="HW26.06.22.cpp" />
@@ -149,7 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builder.h" />
+    <ClInclude Include="BuilderEngineer.h" />
+    <ClInclude Include="BuilderEngineerInfo.h" />
     <ClInclude Include="BuilderProgrammer.h" />
+    <ClInclude Include="BuilderProgrammerInfo.h" />
+    <ClInclude Include="Director.h" />
     <ClInclude Include="Engineer.h" />
     <ClInclude Include="EngineerInfo.h" />
     <ClInclude Include="Programmer.h" />
